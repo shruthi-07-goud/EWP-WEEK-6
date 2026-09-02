@@ -1,47 +1,60 @@
-cafe {
-    display: block;
-    text-align: center;
-    font-family: Arial;
+body {
     background: #fff8e7;
-    padding: 30px;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
 }
 
-cafe > name {
-    display: block;
+h1 {
     color: brown;
-    font-size: 30px;
-    font-weight: bold;
+    margin: 5px;
+}
+
+h2 {
+    color: green;
     margin-bottom: 25px;
 }
 
-menu {
-    display: block;
+.menu {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
 }
 
-item {
-    display: inline-block;
-    width: 180px;
-    padding: 20px;
-    margin: 10px;
+.item {
+    height: 150px;
     background: white;
     border: 2px solid brown;
-    border-radius: 10px;
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
 }
 
-item name {
-    display: block;
+.pic {
+    width: 50%;
+    background: #f5ead7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details h3 {
     color: orange;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    margin: 5px;
 }
 
-price {
-    display: block;
-    color: black;
-}
-iframe {
-    width: 90%;
-    height: 500px;
-    border: none;
+.details p {
+    margin: 8px;
 }
