@@ -40,3 +40,8 @@ price {
     display: block;
     color: black;
 }
+iframe {
+    width: 90%;
+    height: 500px;
+    border: none;
+}
