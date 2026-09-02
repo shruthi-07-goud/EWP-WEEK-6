@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!DOCTYPE cafe SYSTEM "menu.dtd">
+
+<cafe>
+    <name>Bello Cafe</name>
+
+    <menu>
+        <item>
+            <name>Coffee</name>
+            <price>₹100</price>
+        </item>
+
+        <item>
+            <name>Tea</name>
+            <price>₹70</price>
+        </item>
+
+        <item>
+            <name>Burger</name>
+            <price>₹180</price>
+        </item>
+
+        <item>
+            <name>Pizza</name>
+            <price>₹250</price>
+        </item>
+
+        <item>
+            <name>Mocktail</name>
+            <price>₹150</price>
+        </item>
+    </menu>
+</cafe>
