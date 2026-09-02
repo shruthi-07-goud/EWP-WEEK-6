@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+  </head>
+
+  <body>
+    <center>
+      <h1>Registration Form</h1>
+
+      <form>
+        <label>Full Name:</label><br />
+        <input type="text" name="fullname" required />
+        <br /><br />
+
+        <label>Email:</label><br />
+        <input type="email" name="email" required />
+        <br /><br />
+
+        <label>Phone Number:</label><br />
+        <input
+          type="tel"
+          name="phone"
+          pattern="[0-9]{10}"
+          placeholder="Enter 10-digit number"
+          required
+        />
+        <br /><br />
+
+        <label>Address:</label><br />
+
+        <textarea name="address" rows="4" cols="30" required></textarea>
+
+        <br /><br />
+
+        <input type="checkbox" required />
+        I agree to the terms and conditions
+
+        <br /><br />
+
+        <input type="submit" value="Register" />
+        <input type="reset" value="Clear" />
+      </form>
+
+      <br /><br />
+
+      <!-- Back button added -->
+      <a href="home.html">
+        <button type="button">Back to Home</button>
+      </a>
+    </center>
+  </body>
+</html>
