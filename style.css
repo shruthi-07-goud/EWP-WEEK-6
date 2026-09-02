@@ -1,0 +1,42 @@
+cafe {
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    background: #fff8e7;
+    padding: 30px;
+}
+
+cafe > name {
+    display: block;
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+menu {
+    display: block;
+}
+
+item {
+    display: inline-block;
+    width: 180px;
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+item name {
+    display: block;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+price {
+    display: block;
+    color: black;
+}
