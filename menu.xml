@@ -1,34 +1,41 @@
 <?xml version="1.0"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
 
-<!DOCTYPE cafe SYSTEM "menu.dtd">
+<menu>
 
-<cafe>
-    <name>Bello Cafe</name>
+    <item>
+        <name>Cappuccino</name>
+        <category>Coffee</category>
+        <type>Hot Beverage</type>
+        <price>149</price>
+    </item>
 
-    <menu>
-        <item>
-            <name>Coffee</name>
-            <price>100</price>
-        </item>
+    <item>
+        <name>Cold Coffee</name>
+        <category>Coffee</category>
+        <type>Cold Beverage</type>
+        <price>129</price>
+    </item>
 
-        <item>
-            <name>Tea</name>
-            <price>70</price>
-        </item>
+    <item>
+        <name>Chocolate Cake</name>
+        <category>Dessert</category>
+        <type>Cake</type>
+        <price>199</price>
+    </item>
 
-        <item>
-            <name>Burger</name>
-            <price>180</price>
-        </item>
+    <item>
+        <name>Veg Sandwich</name>
+        <category>Snacks</category>
+        <type>Sandwich</type>
+        <price>149</price>
+    </item>
 
-        <item>
-            <name>Pizza</name>
-            <price>250</price>
-        </item>
+    <item>
+        <name>French Fries</name>
+        <category>Snacks</category>
+        <type>Fast Food</type>
+        <price>119</price>
+    </item>
 
-        <item>
-            <name>Mocktail</name>
-            <price>150</price>
-        </item>
-    </menu>
-</cafe>
+</menu>      
